@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="170.0" prefWidth="399.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="br.com.poo.controller.TelaEditarController">
+   <children>
+      <JFXTextField fx:id="tfNomeEditar" labelFloat="true" layoutX="22.0" layoutY="29.0" prefHeight="26.0" prefWidth="240.0" promptText="Nome" unFocusColor="BLACK" />
+      <JFXTextField fx:id="tfIdadeEditar" labelFloat="true" layoutX="302.0" layoutY="29.0" prefHeight="26.0" prefWidth="69.0" promptText="Idade" unFocusColor="BLACK" />
+      <JFXButton fx:id="btnOk" buttonType="RAISED" layoutX="83.0" layoutY="92.0" onAction="#confirmarEdicao" prefHeight="40.0" prefWidth="80.0" ripplerFill="WHITE" style="-fx-background-color: #3465A4; -fx-background-radius: 1em;" text="Ok">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnCancelar" buttonType="RAISED" layoutX="235.0" layoutY="92.0" onAction="#cancelarEdicao" prefHeight="40.0" prefWidth="92.0" ripplerFill="WHITE" style="-fx-background-color: #3465A4; -fx-background-radius: 1em;" text="Cancelar">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
